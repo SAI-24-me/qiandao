@@ -1,6 +1,8 @@
 # 使用指南
 一人签到，全寝不愁  
 ```bash
+git clone https://github.com/SAI-24-me/qiandao.git
+cd qiandao
 pip install -r request.txt # 下载使用的第三方的库    
 vi config.json  # 增加签到用户  
 nohup python3 socketSever.py &  # 后台挂起运行  
