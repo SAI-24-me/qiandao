@@ -3,8 +3,10 @@ from time import ctime
 from qiandao import qiandao
 import logging
 
-usrname = ["zhang san"]
-usrdata = ["xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"]#token
+file = open('config.json','r',encoding='utf-8')
+config=json.load(file)
+usrname = config['usrname']
+usrdata = config['usrdata']
 
 HOST = ''
 PORT = 4396
