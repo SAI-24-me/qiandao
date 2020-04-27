@@ -10,6 +10,6 @@ nohup python3 socketSever.py &  # 后台挂起运行
 usr:"zhangsan"  # 可爱的昵称  
 usrdata:"zhangsan_token"  # token值  
 ```
-你可以在[上课啦](https://skl.hduhelp.com/?type=2&v=3)登陆后根据Url获得账户的token
-如果url链接中没有token可以尝试在无痕浏览状态下登录
+你可以在[上课啦](https://skl.hduhelp.com/?type=2&v=3)登陆后根据Url获得账户的token,
+如果url链接中没有token可以尝试在无痕浏览状态下登录  
 或者用consle台查找get请求中的x-auth-token值作为token
