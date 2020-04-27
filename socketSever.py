@@ -7,7 +7,7 @@ usrname = ["zhang san"]
 usrdata = ["xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"]#token
 
 HOST = ''
-PORT = 21567
+PORT = 4396
 BUFSIZ = 1024
 ADDR = (HOST, PORT)
 
