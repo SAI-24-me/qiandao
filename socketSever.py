@@ -56,6 +56,7 @@ while True:
             except BaseException:
                 ans = ans + usrname[i] + ":账号异常(签到过多)\n"
         logger = logger_config(log_path='log.txt', logging_name=ans)
+        logger.info("info")
         tcpCliSock.send(('[%s]\n%s' % (ctime(), ans)).encode())
     tcpCliSock.close()
 tcpSerSock.close()
