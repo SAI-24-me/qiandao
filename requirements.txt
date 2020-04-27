@@ -1,0 +1,5 @@
+numpy
+socket
+requests
+Pillow
+numpy
