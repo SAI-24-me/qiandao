@@ -1,3 +1,2 @@
 # shangkela
-one for all!
-all for one!
+一人签到，全寝不愁
