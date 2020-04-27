@@ -2,6 +2,7 @@ from socket import *
 from time import ctime
 from qiandao import qiandao
 import logging
+import json
 
 file = open('config.json','r',encoding='utf-8')
 config=json.load(file)
@@ -55,7 +56,6 @@ while True:
             except BaseException:
                 ans = ans + usrname[i] + ":账号异常(签到过多)\n"
         logger = logger_config(log_path='log.txt', logging_name=ans)
-        logger.info("info")
         tcpCliSock.send(('[%s]\n%s' % (ctime(), ans)).encode())
     tcpCliSock.close()
 tcpSerSock.close()
