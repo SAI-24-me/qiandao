@@ -1,5 +1,5 @@
 # config.json
 ```python
-usr:"zhangsan" 
-usrdata:"zhangsan_token"  
+usr:"zhangsan" "lisi"   
+usrdata:"zhangsan_token" "lisi_token"
 
